@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../pages/style.css';
 import { Container, Row, Col } from 'react-bootstrap'
+import { Helmet } from 'react-helmet';
 import Text from '../Homepage/Text'
 import {
   AiFillGithub,
@@ -12,6 +13,15 @@ import { FaLinkedinIn } from "react-icons/fa";
 function Home() {
   return (
     <div className='homepagebackground'>
+                  <Helmet>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-52QH33QMYW"></script>
+        <script>
+          {`window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-52QH33QMYW');`}
+        </script>
+      </Helmet>
       <Container>
         <Row>
           <Col md={7}>
