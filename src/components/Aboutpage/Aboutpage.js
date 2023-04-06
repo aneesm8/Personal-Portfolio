@@ -1,21 +1,12 @@
 import React from 'react'
 import '../../pages/style.css';
-import { Helmet } from 'react-helmet';
 import { Container, Row, Col } from 'react-bootstrap'
 
 
 function Aboutpage() {
     return (
         <div className='aboutpagebackground'>
-        <Helmet>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-52QH33QMYW"></script>
-        <script>
-          {`window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-52QH33QMYW');`}
-        </script>
-      </Helmet>
+
             <Container>
                 <Row className='textbackground'>
                     <Col md={7} >
