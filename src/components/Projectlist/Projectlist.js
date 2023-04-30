@@ -21,7 +21,7 @@ function Projectlist() {
                 isBlog={false}
                 title="Lit Lab Learning"
                 description="Learning platform for taking courses and creating courses. Used for career development and gain knowledge"
-                //ghLink="https://lit-lab-project-ten.vercel.app"
+                ghLink="https://lit-lab-project-ten.vercel.app"
               />
             </Col>
 
