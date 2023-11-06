@@ -12,7 +12,7 @@ function Contactpage() {
         <button
           className='contactbtn'
           onClick={() => {
-            window.open("https://wa.me/+16478655388");
+            window.open("https://wa.me/+14374393451");
           }}
         >Say Hello</button>
         <span></span>
